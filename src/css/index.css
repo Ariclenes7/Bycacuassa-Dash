@@ -1,3 +1,7 @@
+/*
+ *   Copyright (c) 2021 
+ *   All rights reserved.
+ */
 :root {
   --cor-tema: rgb(7, 7, 114);
   --cor-tema-claro: rgb(27, 79, 169);
@@ -8,8 +12,8 @@
   --cor-amarelo: rgb(220, 204, 26);
 
   --cor-preta: #000;
-  --cor-branca: #FFF;
-  --cor-cinza-claro: #EEE;
+  --cor-branca: #fff;
+  --cor-cinza-claro: #eee;
   --cor-cinza-escuro: #222;
   --cor-cinza-medio: #888;
 }
@@ -25,31 +29,63 @@ body {
   background-color: var(--cor-cinza-claro);
 }
 
-.full-width { width: 100%; }
-.full-height { height: 100vh; }
+.full-width {
+  width: 100%;
+}
+.full-height {
+  height: 100vh;
+}
 
 /* FLEX */
-.flex { display: flex; }
-.horizontal { flex-direction: row; }
-.vertical { flex-direction: column; }
+.flex {
+  display: flex;
+}
+.horizontal {
+  flex-direction: row;
+}
+.vertical {
+  flex-direction: column;
+}
 
-.flex-1 { flex: 1; }
-.flex-2 { flex: 2; }
-.flex-3 { flex: 3; }
-.flex-4 { flex: 4; }
-.flex-5 { flex: 5; }
-.flex-6 { flex: 6; }
-.flex-7 { flex: 7; }
-.flex-8 { flex: 8; }
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.flex-4 {
+  flex: 4;
+}
+.flex-5 {
+  flex: 5;
+}
+.flex-6 {
+  flex: 6;
+}
+.flex-7 {
+  flex: 7;
+}
+.flex-8 {
+  flex: 8;
+}
 
 .flex-start,
 .flex-end,
 .flex-center {
   align-items: center;
 }
-.flex-start { justify-content: flex-start; }
-.flex-end { justify-content: flex-end; }
-.flex-center { justify-content: center; }
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-end {
+  justify-content: flex-end;
+}
+.flex-center {
+  justify-content: center;
+}
 
 /* COMPONENTS */
 .Barra-Topo {
@@ -59,7 +95,8 @@ body {
   padding: 10px 20px;
   height: 21px;
 }
-.Barra-Topo a, .Barra-Topo span {
+.Barra-Topo a,
+.Barra-Topo span {
   color: var(--cor-branca);
   text-decoration: none;
   font-size: 1rem;
@@ -89,14 +126,16 @@ body {
 .menu-item {
   height: 40px;
 }
-.menu-item:hover, .menu-item-active {
+.menu-item:hover,
+.menu-item-active {
   background-color: var(--cor-tema-claro);
 }
 .menu-item i {
   font-size: 1.3rem;
 }
 
-.Card, .Sub-Card {
+.Card,
+.Sub-Card {
   margin: 40px 20px;
   padding: 30px;
   border-radius: 10px;
@@ -104,7 +143,9 @@ body {
   box-shadow: 0 0 5px #7777;
   background-color: var(--cor-branca);
 }
-.Sub-Card { margin-top: 0; }
+.Sub-Card {
+  margin-top: 0;
+}
 
 .Pesquisa input {
   padding: 8px 15px;
@@ -202,13 +243,14 @@ main > div {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-.paginacao-item:hover, .paginacao-item-active {
+.paginacao-item:hover,
+.paginacao-item-active {
   background-color: var(--cor-cinza-escuro);
   color: var(--cor-cinza-claro);
   border: 1px solid var(--cor-cinza-escuro);
 }
 
-.Link-Voltar { 
+.Link-Voltar {
   text-decoration: none;
   color: rgb(116, 199, 255);
   cursor: pointer;
@@ -218,7 +260,8 @@ main > div {
   margin: 5px 0 2px 0;
   font-weight: bold;
 }
-.Input-Simples input, textarea {
+.Input-Simples input,
+textarea {
   padding: 8px 12px;
   margin: 5px 0;
   border-radius: 5px;
@@ -240,13 +283,14 @@ textarea {
 .border-green {
   border-left: 4px solid var(--cor-secundaria);
   padding-left: 5px;
-  margin: 2px 0; 
+  margin: 2px 0;
 }
 
 .Input-Valor {
   margin: 10px 0;
 }
-.Input-Valor input, .Input-Valor .input {
+.Input-Valor input,
+.Input-Valor .input {
   border: 1px solid var(--cor-cinza-medio);
   padding: 8px 12px;
   font-size: 0.95rem;
@@ -299,7 +343,7 @@ textarea {
   cursor: pointer;
 }
 .imagem-remover:hover {
-  background-color: #a10b0b;;
+  background-color: #a10b0b;
 }
 
 .variacao-item {
@@ -311,7 +355,8 @@ textarea {
   width: 100%;
   cursor: pointer;
 }
-.variacao-item-ativa, .variacao-item:hover {
+.variacao-item-ativa,
+.variacao-item:hover {
   background-color: var(--cor-cinza-escuro);
   color: var(--cor-cinza-claro);
 }
